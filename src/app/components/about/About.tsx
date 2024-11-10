@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";;
-
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -13,7 +13,7 @@ const About = () => {
       </span>
 
       <div className="about_container container">
-        <img
+        <Image
           src={"/About.jfif"}
           alt=""
           className="about_img"
