@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website! This project showcases my skills, projects, and professional journey. It's designed to be a responsive, modern, and SEO-optimized single-page website.
 
-**Check out my live portfolio here:** [Muhammad Kashif Portfolio](https://your-portfolio.vercel.app) 
+**Check out my live portfolio here:** [Muhammad Kashif Portfolio](https://milestone2-self-portfolio.vercel.app/) 
 
 **View the source code on GitHub:** [Muhammad Kashif Portfolio GitHub Repository](https://github.com/Muhammadkashif5/milestone2-self-portfolio.git)
 
