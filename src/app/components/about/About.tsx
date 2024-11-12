@@ -18,6 +18,8 @@ const About = () => {
           alt=""
           className="about_img"
           data-aos="fade-right"
+          width={500}
+          height={500}
         />
 
         <div className="about_data">
