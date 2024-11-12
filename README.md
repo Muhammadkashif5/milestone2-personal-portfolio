@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Muhammad Kashif Portfolio
 
-## Getting Started
+Welcome to my personal portfolio website! This project showcases my skills, projects, and professional journey. It's designed to be a responsive, modern, and SEO-optimized single-page website.
 
-First, run the development server:
+**Check out my live portfolio here:** [Muhammad Kashif Portfolio](https://your-portfolio.vercel.app) 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**View the source code on GitHub:** [Muhammad Kashif Portfolio GitHub Repository](https://github.com/Muhammadkashif5/milestone2-self-portfolio.git)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Table of Contents
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [About](#about)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## About
 
-## Learn More
+This portfolio is a representation of my work and professional journey. It includes sections like:
 
-To learn more about Next.js, take a look at the following resources:
+- **Home**: Introduction to who I am.
+- **About**: Information about my background and experience.
+- **Resume**: My skills, education, and work history.
+- **Projects**: A showcase of the projects I've worked on.
+- **Contact**: How to reach me.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I built this portfolio using **React**, **Next.js**, and **Tailwind CSS**, with a focus on performance and modern web standards.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Technologies Used
 
-## Deploy on Vercel
+- **React**: A JavaScript library for building user interfaces.
+- **Next.js**: A React framework for server-side rendering and static site generation.
+- **CSS**: A utility-first CSS framework for styling.
+- **TypeScript**: A superset of JavaScript for adding static types.
+- **AOS (Animate On Scroll)**: A library for scroll-triggered animations.
+- **Google Fonts**: Using Poppins font for typography.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Responsive Design**: The portfolio adapts seamlessly to various screen sizes.
+- **Smooth Animations**: Sections animate as you scroll.
+- **Fast Loading**: Optimized for performance.
+- **SEO Optimized**: Ensures better visibility on search engines.
+- **Contact Form**: Easy to get in touch with me.
