@@ -1,10 +1,10 @@
 const Project = ({ projects }: {projects: any[]}) => {
   return (
     <>
-      {projects.map((data, i) => {
+      {projects.map((data) => {
         return (
-          <div className="projects_container container grid scroller">
-            {i % 2 !== 0 && (
+          <div className="projects_container container grid scroller" key={data.id}> {/* Use a unique key */}
+            {data.id % 2 !== 0 && (
               <div className="description d-none">
                 <h3>About {data.title}</h3>
                 <div
@@ -19,8 +19,7 @@ const Project = ({ projects }: {projects: any[]}) => {
             )}
             <div
               className="project_item"
-              key={i}
-              data-aos={i % 2 !== 0 ? "fade-left" : "fade-right"}
+              data-aos={data.id % 2 !== 0 ? "fade-left" : "fade-right"}
             >
               <img
                 src={data.imageURL}
@@ -53,7 +52,7 @@ const Project = ({ projects }: {projects: any[]}) => {
                 )}
               </div>
             </div>
-            {i % 2 === 0 && (
+            {data.id % 2 === 0 && (
               <div className="description d-none">
                 <h3>About {data.title}</h3>
                 <div
@@ -71,7 +70,6 @@ const Project = ({ projects }: {projects: any[]}) => {
       })}
       <p className="text-center">There are some other projects that can't be shown due to company/client policies.</p>
     </>
-    
   );
 };
 
